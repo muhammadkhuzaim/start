@@ -511,6 +511,7 @@ int main() {
 	o.addItem(OrderItem("Keyboard", 2, 1500));
 	o.addItem(OrderItem("Mouse", 1, 800));
 	o.addItem(OrderItem("Headphones", 1, 2500));
+	o.addItem(OrderItem("Laptop",2,50000));
 
 	cout << o;
 }
